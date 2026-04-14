@@ -1,5 +1,6 @@
 name: Desafio de Variaveis e Escopos
-on: workflow_dispatch
+on:
+  workflow_dispatch:
 
 env:
   APP_NAME: "MeuAppIncrível"
