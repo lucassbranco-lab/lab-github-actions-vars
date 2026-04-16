@@ -32,7 +32,6 @@ jobs:
           echo "O usuario $GITHUB_ACTOR disparou este workflow no repositorio $GITHUB_REPOSITORY. O sistema operacional do runner e $RUNNER_OS."
 
       - name: "Passo 4: Gerar Codigo Dinamico"
-        id: gerar_codigo
         run: |
           RANDOM_NUM=$RANDOM
           echo "BUILD_HASH=$RANDOM_NUM" >> $GITHUB_ENV
